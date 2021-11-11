@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Sign up</h1>
+
+        <div id="msgError"></div>
+        <div id="msgSuccess"></div>
+
+        <div class="label-float">
+          <input type="text" placeholder="" required id="username" />
+          <label id="labelUsername" for="username">Username</label>
+        </div>
+        <div class="label-float">
+          <input type="email" placeholder="" required id="email" />
+          <label id="labelEmail" for="email">E-mail</label>
+        </div>
+        <div class="label-float">
+          <input type="password" placeholder="" required id="password" />
+          <label id="labelPassword" for="password">Password</label>
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+        <div class="justify-center">
+          <button onclick="register()">Register</button>
+        </div>
+        <div class="justify-center"></div>
+
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
