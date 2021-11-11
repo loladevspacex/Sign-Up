@@ -76,7 +76,7 @@ function register() {
     msgError.innerHTML = ''
 
     setTimeout(() => {
-      window.Location.href = '' /* chamar outra janela */
+      window.Location.href = 'https://loladevspacex.github.io/Login/' /* chamar outra janela */
     }, 3000)
   } else {
     msgError.setAttribute('style', 'display: block')
