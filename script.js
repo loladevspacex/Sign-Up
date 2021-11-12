@@ -76,7 +76,7 @@ function register() {
     msgError.innerHTML = ''
 
     setTimeout(() => {
-      window.Location.href = "https://loladevspacex.github.io/Login/" 
+      window.location.href = "https://loladevspacex.github.io/Login/" 
     }, 3000)
   } else {
     msgError.setAttribute('style', 'display: block')
