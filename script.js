@@ -77,7 +77,7 @@ function register() {
 
     setTimeout(() => {
       window.location.href = "https://loladevspacex.github.io/Login/" 
-    }, 3000)
+    }, 2000)
   } else {
     msgError.setAttribute('style', 'display: block')
     msgError.innerHTML = '<strong>Preencha os campos corretamente</strong>'
